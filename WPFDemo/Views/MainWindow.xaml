@@ -29,16 +29,16 @@
         <Label Content="Vorname" HorizontalAlignment="Right" Grid.Row="1" VerticalAlignment="Center"/>
         <Label Content="Nachname" HorizontalAlignment="Right" Grid.Row="2" VerticalAlignment="Center"/>
         <Label Content="Alter" HorizontalAlignment="Right" Grid.Row="3" VerticalAlignment="Center"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="250"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="250"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="250"/>
-        <Button Grid.Column="1" Content="Speichern" HorizontalAlignment="Left" Margin="375,0,0,0" Padding="5" Grid.Row="3" VerticalAlignment="Center"/>
-        <ListView Grid.ColumnSpan="2" Grid.Row="4" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10">
+        <TextBox Grid.Column="1" Text="{Binding Vorname}" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="250"/>
+        <TextBox Grid.Column="1" Text="{Binding Nachname}" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="250"/>
+        <TextBox Grid.Column="1" Text="{Binding Alter}" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="250"/>
+        <Button Grid.Column="1" Command="{Binding CreatePersonCommand}" Content="Speichern" HorizontalAlignment="Left" Margin="375,0,0,0" Padding="5" Grid.Row="3" VerticalAlignment="Center"/>
+        <ListView Grid.ColumnSpan="2" Grid.Row="4" ItemsSource="{Binding People}" Margin="10">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Vorname"/>
-                    <GridViewColumn Header="Nachname"/>
-                    <GridViewColumn Header="Alter"/>
+                    <GridViewColumn Header="Vorname" DisplayMemberBinding="{Binding Vorname}" Width="150"/>
+                    <GridViewColumn Header="Nachname" DisplayMemberBinding="{Binding Nachname}" Width="150"/>
+                    <GridViewColumn Header="Alter" DisplayMemberBinding="{Binding Alter}" Width="100"/>
                 </GridView>
             </ListView.View>
         </ListView>

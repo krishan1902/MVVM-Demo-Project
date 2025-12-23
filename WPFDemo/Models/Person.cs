@@ -21,8 +21,6 @@ namespace WPFDemo.Models
             Vorname = vorname;
             Nachname = nachname;
             Alter = alter;
-        }
-
-        
+        }   
     }
 }

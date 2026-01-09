@@ -12,8 +12,8 @@ namespace WPFDemo.Models
         //          nicht für Methoden
         //init   -> nur für einmalige zuweisen
 
-        public String Vorname { get; init; }
-        public String Nachname { get; init; }
+        public string Vorname { get; init; }
+        public string Nachname { get; init; }
         public int Alter {  get; init; }
 
         public Person(string vorname, string nachname, int alter)

@@ -13,28 +13,52 @@ namespace WPFDemo.ViewModels
 {
     public partial class PersonViewModel : ObservableObject
     {
-        [ObservableProperty]
-        private ObservableCollection<Person> people;
+        public ObservableCollection<Person> People { get; }
 
         [ObservableProperty]
+        [NotifyCanExecuteChangedFor(nameof(CreatePersonCommand))]
         private string vorname;
 
         [ObservableProperty]
+        [NotifyCanExecuteChangedFor(nameof(CreatePersonCommand))]
         private string nachname;
 
         [ObservableProperty]
+        [NotifyCanExecuteChangedFor(nameof(CreatePersonCommand))]
         private int alter;
+
+        [ObservableProperty]
+        private Person selectedPerson;
+
+
+        private bool CanSave()
+        {
+            return !string.IsNullOrWhiteSpace(Vorname) &&
+                   !string.IsNullOrWhiteSpace(Nachname) &&
+                   Alter > 0 && !string.IsNullOrWhiteSpace(Convert.ToString(Alter));
+        }
+        
+        [RelayCommand(CanExecute = nameof(CanSave))]
+        private void CreatePerson()
+        {
+            People.Add(new Person(Vorname, Nachname, Alter));
+            Vorname = "";
+            Nachname = "";
+            Alter = 0;
+        }
+
+        [RelayCommand]
+        private void DeletePerson()
+        {
+            if (selectedPerson == null) return; 
+            
+            MessageBox.Show($"Person mit Nachname {selectedPerson.Nachname} wird gelöscht", "tmm");
+            People.Remove(selectedPerson);
+        }
 
         public PersonViewModel()
         {
             People = new ObservableCollection<Person>();
-        }
-
-        [RelayCommand]
-        private void CreatePerson()
-        {
-            People.Add(new Person(Vorname, Nachname, Alter));
-            MessageBox.Show("jbg");
         }
     }
 }

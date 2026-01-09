@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|c:\\02 5ahinf\\06 pos\\mvvmdemoprojekt\\wpfdemo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|c:\\02 5ahinf\\06 pos\\mvvmdemoprojekt\\wpfdemo\\viewmodels\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\viewmodels\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|c:\\02 5ahinf\\06 pos\\mvvmdemoprojekt\\wpfdemo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|c:\\02 5ahinf\\06 pos\\mvvmdemoprojekt\\wpfdemo\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|c:\\02 5ahinf\\06 pos\\mvvmdemoprojekt\\wpfdemo\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947BE633-619D-4D3C-B943-0BEEE3051722}|WPFDemo\\WPFDemo.csproj|solutionrelative:wpfdemo\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 383,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFDemo\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFDemo\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T23:36:48.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "WPFDemo\\Models\\Person.cs",
+              "ToolTip": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\Models\\Person.cs",
+              "RelativeToolTip": "WPFDemo\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T23:36:39.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PersonViewModel.cs",
               "DocumentMoniker": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\ViewModels\\PersonViewModel.cs",
               "RelativeDocumentMoniker": "WPFDemo\\ViewModels\\PersonViewModel.cs",
               "ToolTip": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\ViewModels\\PersonViewModel.cs",
               "RelativeToolTip": "WPFDemo\\ViewModels\\PersonViewModel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAawBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T22:16:14.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFDemo\\Views\\MainWindow.xaml",
               "ToolTip": "C:\\02 5AHINF\\06 POS\\MVVMDemoProjekt\\WPFDemo\\Views\\MainWindow.xaml",
               "RelativeToolTip": "WPFDemo\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-19T22:14:06.156Z",
+              "WhenOpened": "2026-01-09T13:54:37.225Z",
               "EditorCaption": ""
             }
           ]

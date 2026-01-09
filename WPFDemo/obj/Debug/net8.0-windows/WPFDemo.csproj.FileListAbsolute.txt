@@ -22,3 +22,4 @@ C:\02 5AHINF\06 POS\MVVMDemoProjekt\WPFDemo\obj\Debug\net8.0-windows\refint\WPFD
 C:\02 5AHINF\06 POS\MVVMDemoProjekt\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.pdb
 C:\02 5AHINF\06 POS\MVVMDemoProjekt\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.genruntimeconfig.cache
 C:\02 5AHINF\06 POS\MVVMDemoProjekt\WPFDemo\obj\Debug\net8.0-windows\ref\WPFDemo.dll
+C:\02 5AHINF\06 POS\MVVMDemoProjekt\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.sourcelink.json
